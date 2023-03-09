@@ -1,0 +1,139 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Dancing+Script:wght@700&family=Poppins:wght@100;500&family=Ubuntu&display=swap');
+
+body{
+    background-color: rgb(46, 199, 213);
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.head{
+    align-items: center;
+    background-color: #1edfed;
+    width: fit-content;
+    margin-left: 270px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.box{
+    background:#1d34e6;
+  padding:25px;
+  max-width:760px;
+  margin:25px auto;
+  overflow:hidden;
+  border-radius:10px;
+  border:4px solid #b1c9bb;
+ 
+}
+.input{
+   text-align: center;
+   font-size: 20px; 
+}
+.incomplete{
+    width: 45%;
+    height: fit-content;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #1fdae0;
+    float: left;
+    
+
+}
+ .list{
+    padding:10px;
+    border-bottom:1px dotted black ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  .list1{
+    padding:10px;
+    border-bottom:1px dotted black ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  button{
+    cursor: pointer;
+    border: none;
+    padding: 3.5px;
+    text-align: center;
+  }
+
+.addbtn{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+.btns{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    gap: 10px;
+    /* float: right; */
+}
+.mark{
+  float: right;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    border: none;
+    
+
+}
+.edit{
+    margin-left: 20px;
+    float: right;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    border: none;
+    /* justify-content: space-between; */
+}
+
+.delete{
+    float: right;
+    border-radius: 5px;
+    background-color: rgb(222, 63, 31);
+    color: white;
+    border: none;
+}
+
+
+.complete{
+    float: right;
+    width: 45%;
+    height: fit-content;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #1fdae0;
+}
+
+h2{
+    text-align: center;
+
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+i{
+    width: 30px;
+    height: 40px;
+    color: black;
+}
+li{
+    list-style: none;
+}
